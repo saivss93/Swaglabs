@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="36.704777">
+    <testcase classname="Checkout process" name="Checkout item and finish the order" time="36.704777">
+        <system-out><![CDATA[Given User is on the login page.............................................passed
+When Title of the login page is free crm....................................passed
+Then User enters "standard_user" and "secret_sauce".........................passed
+And user clicks on login button.............................................passed
+Then User is on home page...................................................passed
+Then Navigate to name drop down.............................................passed
+Then Select the first item to add to cart...................................passed
+Then Click on the cart......................................................passed
+Then Tap on checkout........................................................passed
+Then Enters "Sai" and "Vanapalli" and "17050"...............................passed
+Then Tap on Continue........................................................passed
+Then Tap on Finish..........................................................passed
+Then Verify order placed....................................................passed
+Then User hits on open button...............................................passed
+Then User clicks on logout..................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

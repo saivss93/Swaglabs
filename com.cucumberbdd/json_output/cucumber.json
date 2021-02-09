@@ -1,0 +1,247 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 25,
+        "name": "Checkout item and finish the order",
+        "description": "",
+        "id": "checkout-process;checkout-item-and-finish-the-order;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8528403328,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the login page",
+            "match": {
+              "location": "StepDef.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45336066,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title of the login page is free crm",
+            "match": {
+              "location": "StepDef.title_of_the_login_page_is_free_crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 276507669,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDef.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3056897868,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepDef.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2014129658,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on home page",
+            "match": {
+              "location": "StepDef.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2336510919,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Navigate to name drop down",
+            "match": {
+              "location": "StepDef.navigate_to_name_drop_down()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2241409897,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select the first item to add to cart",
+            "match": {
+              "location": "StepDef.select_the_first_item_to_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2281075492,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on the cart",
+            "match": {
+              "location": "StepDef.click_on_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2274934761,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Tap on checkout",
+            "match": {
+              "location": "StepDef.tap_on_checkout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2170358408,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enters \"Sai\" and \"Vanapalli\" and \"17050\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sai",
+                  "offset": 8
+                },
+                {
+                  "val": "Vanapalli",
+                  "offset": 18
+                },
+                {
+                  "val": "17050",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDef.enters_and_and(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2208893518,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Tap on Continue",
+            "match": {
+              "location": "StepDef.tap_on_Continue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2256311183,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Tap on Finish",
+            "match": {
+              "location": "StepDef.tap_on_Finish()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24745820,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify order placed",
+            "match": {
+              "location": "StepDef.verify_order_placed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2237954018,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User hits on open button",
+            "match": {
+              "location": "StepDef.user_hits_on_open_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2186676771,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on logout",
+            "match": {
+              "location": "StepDef.user_clicks_on_logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2564631798,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Close the browser",
+            "match": {
+              "location": "StepDef.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checkout process",
+    "description": "",
+    "id": "checkout-process",
+    "keyword": "Feature",
+    "uri": "/Users/SaiVanapalli/eclipse-workspace/com.cucumberbdd/src/main/java/Features/checkout.feature"
+  }
+]
